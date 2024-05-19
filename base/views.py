@@ -6,3 +6,6 @@ def home(request):
 
 def first_page(request):
     return render(request, 'base/first_page.html')
+
+def second_page(request):
+    return render(request, 'base/second_page.html')
